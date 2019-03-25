@@ -9,14 +9,13 @@ $(document).ready(function(){
     var unanswered = 0;
 
 // Questions and Answer Arrays
-    var question = ["What is the Panda Brawler's favorite Drink?",
-    "What element is the Panda Brawler's greatest ally?", "Who is the Panda Brawler's arch nemisis?", "Who is the warrior king of the jungle?", "What human samurai survived the 9 deadly venoms?",
+    var question = ["What is the Panda Brawler's favorite Drink?", "What element is the Panda Brawler's greatest ally?", "Who is the Panda Brawler's arch nemisis?", "Who is the warrior king of the jungle?", "What human samurai survived the 9 deadly venoms?",
     "What samurai is the hero of cult anime film 'Ninja Scroll'?", "Which warrior relies on alcohol and agility to defeat his enemies?", "Which warrior carries a burning spear and relies on inner vitality?"];
-    var answer = ["Meade", "Fire", "Invoker", "Monkey King", "Jube Kibogame", "Jube Kibogame", "Pandarian Brewmaster", "Huskar",];
-    var firstChoice = ["Meade", "Fire", "Invoker", "Juggernaut", "Huskar", "Jube Kibogame", "Monkey King"];
-    var secondChoice = ["Fire", "Invoker", "Monkey King", "Pandarian Brewmaster", "Huskar", "Jube Kibogame", "Meade",];
-    var thirdChoice = ["Monkey King", "Invoker", "Huskar", "Fire", "Jube Kibogame", "Meade", "Pandarian Brewmaster"];
-    var fourthChoice = ["Monkey King", "Meade", "Invoker", "Fire", "Huskar", "Pandarian Brewmaster", "Jube Kibogame"];
+    var answer = ["Meade", "Fire", "Invoker", "Monkey King", "Jube Kibogame", "Jube Kibogame", "Pandarian Brewmaster", "Huskar", "Pandarian Brewmaster", "Huskar"];
+    var firstChoice = ["Meade", "Puck", "Hatori Honzo", "Evangelion", "Jube Kibogame", "Ursa", "Treant", "Mr. Wednesday"];
+    var secondChoice = ["Gemma", "Tessai", "Mortred", "Juggernaut", "Razor", "Lina", "Jeraziah", "Huskar"];
+    var thirdChoice = ["Ariel", "Fire", "Invoker", "Chiwu", "Nigong", "Woosa", "Pandarian Brewmaster", "Tetra"];
+    var fourthChoice = ["Monkey King", "Meade", "Invoker", "Monkey King", "Jube Kibogame", "Feng Yan", "Veromos", "Andre 3000"];
 
 // Show & Hide Functions
     function showHolders() {
